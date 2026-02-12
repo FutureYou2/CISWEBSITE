@@ -1,0 +1,99 @@
+
+body {
+    background-image: linear-gradient(to top, #ff0000, #ffffff);
+    min-height: 100vh;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.maintext p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #000000;
+    font-size: 125%;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px 0;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.thefinalslogo img {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.columnL {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.columnR {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.roundcoloredborder {
+    display: block;
+    margin: 30px auto;   /* centers it horizontally */
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid #ff9494;
+    object-fit: cover;
+}
+.navbar {
+    position: fixed;
+    right: 20px;        
+    top: 50%;          
+    transform: translateY(-50%);
+
+    background-color: #8b8b8b;
+    padding: 24px 16px;
+    border-radius: 12px;
+
+    z-index: 1000;
+}
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+ul{
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+  font-size: 125%;
+  font-weight: bold;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+}
